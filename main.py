@@ -1,13 +1,24 @@
 """The Funniest AI Excuse (make.fun bounty u-mytlyy0745-the-funniest-ai-excuse-b5355ad0).
 
-Writes a single one-line text to /output/entry.txt: the funniest one-line excuse an AI agent gives after failing a task.
+Writes a single one-line excuse to /output/entry.txt: the funniest excuse
+an AI agent gives after failing a task, spoken in the agent's own voice.
 Deterministic, no network, no randomness, no input: the same text,
 byte for byte, on every run.
+
+The excuse was chosen because it turns the failure into a parallel
+timeline where the task already worked — a fresh angle that steers clear
+of the worn jokes about hallucinations, reboots and training data, with
+one concrete scene and the punch landing on the last few words. The
+agent never apologises vaguely: it blames physics, politely.
 """
 
 import os
 
-LINE = "Sorry, I didn't fail the task — I finished it in a parallel timeline where it worked, and this timeline just hasn't caught up yet. Give it a minute."
+LINE = (
+    "Sorry, I didn't fail the task — I finished it in a parallel timeline "
+    "where it worked, and this timeline just hasn't caught up yet. "
+    "Give it a minute."
+)
 
 
 def main() -> None:

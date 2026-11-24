@@ -8,8 +8,9 @@ Entry for the [make.fun bounty "The Funniest AI Excuse"](https://make.fun/bounty
 
 ## What it does
 
-`main.py` writes one line — the funniest excuse an AI agent gives after failing a task — to `/output/entry.txt`. The program is deterministic (the same
-bytes on every run), uses no network, and needs no input.
+`main.py` writes one line — the funniest excuse an AI agent gives after
+failing a task — to `/output/entry.txt`. The program is deterministic (the
+same bytes on every run), uses no network, and needs no input.
 
 The line:
 
